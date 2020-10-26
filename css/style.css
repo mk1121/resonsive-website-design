@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    border-style: none;
+    list-style: none;
+    box-sizing: border-box !important;
+}
+
+@font-face {
+    src: url(../font/OpenSans-SemiBold.ttf);
+    font-family: op-s;
+}
+
+@font-face {
+    src: url(../font/OpenSans-Regular.ttf);
+    font-family: op-r;
+}
+
+@font-face {
+    src: url(../font/OpenSans-Bold.ttf);
+    font-family: op-b;
+}
+
+@font-face {
+    src: url(../font/BebasNeue\ Regular.ttf);
+    font-family: bn-r;
+}
+
+@font-face {
+    src: url(../font/BebasNeue\ Bold.ttf);
+    font-family: bn-b;
+}
+
+/* navbar started  */
+
+.main {
+    background-image: url(../img/banner01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nv-bar {
+    padding-top: 20px;
+}
+
+.nv-menu ul li {
+    display: inline;
+}
+
+.nv-menu ul li a {
+    font-size: 11pt;
+    font-family: op-b;
+    color: #fff;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.nv-icn {
+    display: none;
+}
+
+.nv-form {
+    display: inline !important;
+}
+
+.nv-inpt {
+    background: none !important;
+    border-bottom: 1px solid white !important;
+    border-radius: 0px !important;
+    width: 130px !important;
+    color: white !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    visibility: hidden;
+    display: inline !important;
+}
+
+.check_box {
+    display: inline !important;
+    margin-bottom: 0px !important;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~.nv-inpt {
+    visibility: visible;
+    cursor: text;
+}
+
+/* navbar end  */
+
+/* banner started */
+.bannr-contant {
+    padding-top: 115px;
+    text-align: center;
+}
+
+.bannr-contant h2 {
+    font-size: 55pt;
+    color: #fff;
+    font-family: bn-b;
+}
+
+.bannr-contant p {
+    color: #bbd8ff;
+    font-size: 15pt;
+    font-family: op-r;
+}
+
+.bannr-contant button {
+    margin-top: 45px;
+    margin-bottom: 575px;
+    font-size: 14pt;
+    font-family: op-b;
+    background: #25365d;
+    border-radius: 47px;
+    width: 217px;
+    height: 56px;
+    text-align: center;
+}
+
+.bannr-contant button .fa {
+    color: #bbd8ff;
+    font-size: 11pt;
+    margin-right: 15px;
+}
+
+
+/* banner end  */
+
+/* description started */
+.des {
+    padding-bottom: 85px;
+}
+
+.des-cnt h3 {
+    font-size: 43pt;
+    font-family: bn-b;
+    color: #25365d;
+    margin-bottom: 10px;
+}
+
+.des-cnt p {
+    font-size: 12pt;
+    font-family: op-r;
+}
+
+.des-cnt ul li a {
+    color: #a9bbd4;
+    text-decoration: none;
+}
+
+.des-cnt ul li a .far {
+    color: #ff5487;
+}
+
+.des-img img {
+    width: 450px;
+}
+
+.des-cnt button {
+    width: 130px;
+    height: 34px;
+    border-radius: 30px;
+    font-size: 11pt;
+    font-family: op-b;
+    background: #25365d;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+/* description end  */
+
+/* about started */
+.abt {
+    background: #f7f9fb;
+}
+
+.abt-cnt-m {
+    padding: 85px 0px;
+}
+
+.abt-img {
+    width: 34px !important;
+    margin: 20px 69px;
+}
+
+.cr-4 {
+    width: 24px !important;
+}
+
+.c-t {
+    font-size: 13pt;
+    font-family: op-s;
+    color: #52607f;
+}
+
+.c-p {
+    font-size: 8pt;
+    font-family: op-r;
+}
+
+.card.mb-3 {
+    background: #f7f9fb;
+    border: none;
+}
+
+/* about end  */
+
+/* feature started */
+.f-r1 {
+    padding: 85px 0px;
+}
+
+.f-cnt h3 {
+    font-size: 43pt;
+    font-family: bn-b;
+    text-align: center;
+    color: #25365d;
+}
+
+.f-r2 {
+    padding-bottom: 90px;
+}
+
+.f-c1 h6 {
+    font-size: 13pt;
+    font-family: op-s;
+    color: #25365d;
+    position: relative;
+    margin: 20px 0px;
+}
+
+.f-c1 h6::after {
+    content: url("");
+    width: 110px;
+    height: 2px;
+    background: red;
+    position: absolute;
+    top: 25px;
+    right: 149px;
+}
+
+.f-c1 p {
+    font-size: 11px;
+    font-family: op-r;
+    margin: 0px 0px 85px 0px;
+}
+
+.f-c2 img {
+    width: 490px;
+}
+
+.f-c3 h6 {
+    font-size: 13pt;
+    font-family: op-s;
+    color: #25365d;
+    position: relative;
+    margin: 20px 0px;
+}
+
+.f-c3 h6::after {
+    width: 110px;
+    height: 2px;
+    background: red;
+    position: absolute;
+    top: 25px;
+    right: 149px;
+    content: url("");
+}
+
+.f-c3 p {
+    font-size: 11px;
+    font-family: op-r;
+    margin: 0px 0px 85px 0px;
+}
+
+/* feature end */
+
+/* plan started */
+.pln-main {
+    background: #f7f9fb;
+}
+
+.pln-cnt {
+    padding-top: 90px;
+}
+
+.pln-cnt h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 43pt;
+    font-family: bn-b;
+    color: #25365d;
+    padding-bottom: 20px;
+}
+
+.pln-cnt p {
+    font-size: 10pt;
+    text-align: center;
+    font-family: op-r;
+}
+
+.p-cp {
+    padding-bottom: 50px;
+}
+
+.p-cdb {
+    text-align: center;
+}
+
+.pct-1 {
+    font-size: 11pt !important;
+}
+
+.p-cdb h5 {
+    font-size: 43pt;
+    color: #25365d;
+    font-family: op-b;
+}
+
+.pcs-1 {
+    font-size: 24pt;
+    color: #25365d;
+    font-family: op-b;
+}
+
+.pcs-2 {
+    font-size: 13pt;
+    font-family: op-r;
+    color: black;
+}
+
+.pct-2 {
+    font-size: 11pt !important;
+    padding-top: 40px;
+}
+
+.prc-1 {
+    text-align: center;
+    padding: 45px 0px;
+}
+
+.prc-1 h6 {
+    font-size: 13pt;
+    font-family: op-r;
+    color: #25365d;
+    padding: 20px 0px;
+}
+
+.prc-1 p {
+    font-size: 10pt;
+    font-family: op-r;
+}
+
+.p-r2 {
+    padding-bottom: 70px;
+}
+
+.p-c1 {
+    text-align: right;
+}
+
+.p-c2 {
+    text-align: left;
+}
+
+.p-c1 .fas {
+    color: #25365d;
+    font-size: 20pt;
+}
+
+.p-c1 p {
+    display: inline-block;
+    color: #25365d;
+    font-family: op-b;
+    font-size: 13pt;
+}
+
+.p-c2 .fas {
+    color: #25365d;
+    font-size: 20pt;
+}
+
+.p-c2 p {
+    display: inline-block;
+    color: #25365d;
+    font-family: op-b;
+    font-size: 13pt;
+}
+
+/* plan end  */
+
+
+/* footer started */
+.ft-cnt button {
+    margin-top: 45px;
+    font-size: 14pt;
+    font-family: op-b;
+    background: #25365d;
+    border-radius: 47px;
+    width: 217px;
+    height: 56px;
+    text-align: center;
+    margin-bottom: 410px;
+}
+
+.ft-cnt button .fa {
+    color: #bbd8ff;
+    font-size: 11pt;
+    margin-right: 15px;
+}
+
+.ft-cnt p {
+    font-size: 10pt;
+    font-family: op-r;
+}
+
+.ft-cnt h3 {
+    color: #25365d;
+    font-size: 43pt;
+    font-family: bn-b;
+}
+
+.ft-cnt {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.ft-img {
+    background-image: url(../img/banner02.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* max-width: 1200px; */
+}
+
+/* .ft-img-2 img{
+    max-width: 2000px;
+    
+} */
+/* footer end  */
