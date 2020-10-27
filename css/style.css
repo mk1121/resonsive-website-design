@@ -214,6 +214,10 @@
 /* about end  */
 
 /* feature started */
+
+.f-c1dp {
+	display: none;
+}
 .f-r1 {
     padding: 85px 0px;
 }
@@ -246,7 +250,42 @@
     top: 25px;
     right: 149px;
 }
-
+.f-c1dh1::before {
+	content: url("");
+	position: absolute;
+	top: 64px;
+	left: 105px;
+	width: 367px;
+	height: 1px;
+	color: red;
+	border: 1px dashed;
+	transform: rotate(12deg);
+	z-index: 1;
+}
+.c1d1::after {
+	content: url("");
+	top: 105px;
+	left: 470px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: red;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid;
+}
+.c1d1::before {
+	content: url("");
+	top: 120px;
+	left: 485px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	z-index: 1;
+	border: none;
+}
 .f-c1 p {
     font-size: 11px;
     font-family: op-r;
@@ -274,7 +313,114 @@
     right: 149px;
     content: url("");
 }
-
+.f-c1dh3::before {
+	content: url("");
+	position: absolute;
+	top: 5px;
+	left: 107px;
+	width: 370px;
+	height: 1px;
+	color: red;
+	border: 1px dashed;
+	transform: rotate(-6deg);
+	z-index: 1;
+}
+.c1d3::after {
+	content: url("");
+	top: 160px;
+	left: 472px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: red;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid;
+}
+.c1d3::before {
+	content: url("");
+	top: 175px;
+	left: 487px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	z-index: 1;
+	border: none;
+}
+.f-c1dh2::before {
+	content: url("");
+	position: absolute;
+	top: 53px;
+	right: 257px;
+	width: 271px;
+	height: 1px;
+	color: red;
+	border: 1px dashed;
+	transform: rotate(-12deg);
+	z-index: 1;
+}
+.c1d2::before {
+	content: url("");
+	top: 98px;
+	right: 535px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	z-index: 1;
+	border: none;
+}
+.c1d2::after {
+	content: url("");
+	top: 84px;
+	right: 520px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: red;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid;
+}
+.f-c1dh4::before {
+	content: url("");
+	position: absolute;
+	top: 2px;
+	right: 259px;
+	width: 271px;
+	height: 1px;
+	color: red;
+	border: 1px dashed;
+	transform: rotate(10deg);
+	z-index: 1;
+}
+.c1d4::after {
+	content: url("");
+	top: 156px;
+	right: 520px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: red;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid;
+}
+.c1d4::before {
+	content: url("");
+	top: 170px;
+	right: 535px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	z-index: 1;
+	border: none;
+}
 .f-c3 p {
     font-size: 11px;
     font-family: op-r;

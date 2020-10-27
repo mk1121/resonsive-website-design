@@ -94,6 +94,65 @@
         display: none;
     }
 
+
+
+    .f-c1dp {
+        display: block;
+    }
+    .c1d3 {
+        display: none;
+    }
+    .c1d2 {
+        display: none;
+    }
+
+
+    .f-c1dh1::before {
+        display: none;
+    }
+    .c1d1::after {
+        display: none;
+    }
+    .c1d1::before {
+        display: none;
+    }
+
+    .f-c1dh3::before {
+        display: none;
+    }
+    .c1d3::after {
+        display: none;
+    }
+    .c1d3::before {
+        display: none;
+    }
+    .f-c1dh2::before {
+        display: none;
+    }
+    .c1d2::after {
+        display: none;
+    }
+    .c1d2::before {
+        display: none;
+    }
+    .f-c1dh4::before {
+        display: none;
+    }
+    .c1d4::after {
+        display: none;
+    }
+    .c1d4::before {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
     .f-c2 img {
         width: 80%;
         margin-bottom: 60px;
@@ -203,10 +262,64 @@
 
 @media only screen and (max-width: 1199px) {
     .f-c1 h6::after {
-        right: 118px;
+        right: 104px;
+    }
+    .f-c1dh1::before {
+        top: 63px;
+        width: 330px;
+        transform: rotate(13deg);
+    }
+    .c1d1::after {
+        left: 435px;
+    }
+    .c1d1::before {
+        top: 120px;
+        left: 449px;
     }
 
+
     .f-c3 h6::after {
-        right: 118px;
+        right: 104px;
+    }
+    .f-c1dh3::before {
+        top: 13px;
+        width: 295px;
+        transform: rotate(-5deg);
+    }
+    .c1d3::after {
+        top: 172px;
+        left: 402px;
+    }
+    .c1d3::before {
+        top: 189px;
+        left: 417px;
+    }
+    .f-c1dh2::before {
+        top: 60px;
+        right: 206px;
+        width: 172px;
+        transform: rotate(-24deg);
+    }
+    .c1d2::after {
+        top: 97px;
+        right: 370px;
+    }
+    .c1d2::before {
+        top: 114px;
+        right: 385px;
+    }
+    .f-c1dh4::before {
+        top: 13px;
+        right: 212px;
+        width: 160px;
+        transform: rotate(9deg);
+    }
+    .c1d4::after {
+        top: 174px;
+        right: 362px;
+    }
+    .c1d4::before {
+        top: 190px;
+        right: 379px;
     }
 }
